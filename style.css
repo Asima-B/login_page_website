@@ -1,0 +1,594 @@
+  body{
+    /* height: 100vh; */
+    background-color: #fff;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    margin: 0;
+
+    background: #FFFEFC;
+}
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1289px;
+    top: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+.rectangle{
+    position: absolute;
+    width: 737px;
+    height: 825px;
+    left: 41px;
+    top: 38px;
+
+    background: linear-gradient(180deg, rgba(151, 118, 68, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%);
+    border-radius: 29px
+}
+
+.image{
+    position: absolute;
+    width: 737px;
+    height: 825px;
+    left: 41px;
+    top: 38px;
+
+    background: url(.jpg), #C4C4C4;
+    border-radius: 29px;
+}
+
+
+.image_up{
+    position: absolute;
+    width: 435px;
+    height: 56px;
+    left: 110px;
+    top: 709px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 56px;
+    color:#fff;
+}
+
+.image_down{
+    position: absolute;
+    width: 301px;
+    height: 38px;
+    left: 110px;
+    top: 770px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color:#fff;
+}
+
+.text{
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    left: 1028px;
+    top: 145px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.rect{
+    position: absolute;
+    width: 329px;
+    height: 59px;
+    left: 942px;
+    top: 193px;
+
+    background: #F8EDDD;
+    border-radius: 33px;
+}
+
+.rect_reg{
+    position: absolute;
+    width: 146px;
+    height: 40px;
+    left: 1113px;
+    top: 203px;
+    
+    background: #9E896A;
+    border-radius: 33px;
+}
+
+.login_name{
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 1006px;
+    top: 211px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.reg_name{
+    position: absolute;
+width: 65px;
+height: 24px;
+left: 1153px;
+top: 211px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #9E896A;
+}
+
+.login_text{
+    position: absolute;
+    width: 454px;
+    height: 49px;
+    left: 889px;
+    top: 272px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #5B5B5B;
+    
+}
+
+.email_txt{
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 889px;
+    top: 340px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+
+.rect_email{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 435px;
+    height: 54px;
+    left: 889px;
+    top: 389px;
+
+    background: #FFFFFF;
+    border: 1px solid #9E896A;
+    border-radius: 40px;
+}
+
+.email{
+    outline:none;
+    border:none;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+
+    position: absolute;
+    width: 185px;
+    height: 23px;
+    left: 920px;
+    top: 404px;
+    
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ACACAC;
+}
+
+.username_txt{
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 889px;
+    top: 460px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.rect_user{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 435px;
+    height: 54px;
+    left: 889px;
+    top: 509px;
+
+    background: #FFFFFF;
+    border: 1px solid #9E896A;
+    border-radius: 40px;
+}
+
+
+input[type=text]{
+    position: absolute;
+    width: 162px;
+    height: 23px;
+    left: 920px;
+    top: 524px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #ACACAC;
+}
+
+.username{
+    outline:none;
+    border:none;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+
+    position: absolute;
+    width: 162px;
+    height: 23px;
+    left: 920px;
+    top: 524px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ACACAC;
+}
+.pass_txt{
+    position: absolute;
+    width: 78px;
+    height: 24px;
+    left: 889px;
+    top: 580px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.rect_pass{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 435px;
+    height: 54px;
+    left: 889px;
+    top: 629px;
+    
+    background: #FFFFFF;
+    border: 1px solid #9E896A;
+    border-radius: 40px;
+}
+
+.pass{
+    outline:none;
+    border:none;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    left: 920px;
+    top: 644px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #ACACAC;
+}
+
+.pass_img{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1278px;
+    top: 647px;
+    
+}
+
+.btn{
+    position: absolute;
+    width: 232px;
+    height: 49px;
+    left: 1092px;
+    top: 738px;
+    
+    background: #9E896A;
+    border-radius: 36px;
+    border-color:transparent ;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.login_link{
+    color: #9E896A; 
+}
+
+a.reg_link{
+    color: #fff;
+}
+
+a.forget_link{
+    color: #000000;
+}
+
+
+/* свойства модального окна по умолчанию */
+.modal {
+    position: fixed;
+    /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* цвет фона */
+    z-index: 1050;
+    opacity: 0;
+    /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    /* анимация перехода */
+    pointer-events: none;
+    /* элемент невидим для событий мыши */
+  }
+
+  /* при отображении модального окно */
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+    overflow-y: auto;
+  }
+
+  /* ширина модального окна и его отступы от экрана */
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+  }
+
+  /* свойства для блока, содержащего контент модального окна */
+  .modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+  }
+  
+  /* свойства для заголовка модального окна */
+  .modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+  }
+
+  .modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  /* свойства модального окна по умолчанию */
+  .modal {
+    position: fixed;
+    /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* цвет фона */
+    z-index: 1050;
+    opacity: 0;
+    /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    /* анимация перехода */
+    pointer-events: none;
+    /* элемент невидим для событий мыши */
+  }
+
+  /* при отображении модального окно */
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+    overflow-y: auto;
+  }
+
+  /* ширина модального окна и его отступы от экрана */
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+  }
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 500px;
+      margin: 30px auto;
+    }
+  }
+
+  /* свойства для блока, содержащего контент модального окна */
+  .modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+  }
+
+  @media (min-width: 768px) {
+    .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+  }
+
+  /* свойства для заголовка модального окна */
+  .modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+  }
+
+  .modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  /* свойства для кнопки "Закрыть" */
+  .close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+  }
+
+  /* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+  .close:focus,
+  .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+  }
+
+  /* свойства для блока, содержащего основное содержимое окна */
+  .modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+  }

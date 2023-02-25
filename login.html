@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login page</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class ="header">
+            <div class="logo">
+                <p>Your Logo</p>
+                
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image">
+                <img src="Rectangle 77.png" alt="image">
+            </div>
+
+            <div class="rectangle">
+                <img src="Rectangle 78.png" alt="">
+            </div>
+
+            <button onclick="darkMode()" class="dark_btn">Darkmode</button>
+            <button onclick="lightMode()" class="light_btn">LightMode</button>
+        <script src="app.js"></script>
+
+            <div class="image_up">
+                <p>Lorem Ipsum is simply</p>
+            </div>
+
+            <div class="image_down">
+                <p>Lorem Ipsum is simply</p>
+            </div>
+
+            <!-- content -->
+            <div class="text">
+                <p>Welcome to lorem.!</p>
+            </div>
+
+            
+
+            <div class="rect"></div>
+            <div class="rect_login"></div>
+
+            <div class="login_name">
+                <a class="login_link" href="index2.html">Login</a>
+            </div>
+
+            <div class="reg_name">
+                <a class='reg_link' href="index.html">Register</a>
+            </div>
+
+            <div class="login_text">
+                <p>Lorem Ipsum  is simply dummy text or the printing and typesetting industry.</p>
+            </div>
+            <!-- Username -->
+            <div class="username_txt">
+                <label for ="username">Username</label>
+            </div>
+
+            <div class="rect_user">
+            </div>  
+            
+            <input type ="text" name="username" class="username" placeholder="Enter your User name" required>
+            
+            <!-- Password -->
+            <div class="pass_txt">
+                <p>Password</p>
+            </div>
+    
+            <div class="rect_pass"></div>
+            <!-- <div class="pass"><p>Enter your Password</p></div> -->
+            <input type ="password" name="pass" class="pass" placeholder="Enter your Password" required>
+            
+            <div class="pass_img"><img src="Group.png" alt=""></div>
+
+            <!-- remember me  -->
+
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label for="checkbox">Remember me</label>
+
+            <div class="forget">
+                <a class="forget_link" ref="#"><p>Forgot Password ?</p></a>
+            </div>
+
+            <!-- login button -->
+            <button class="btn"><a href="#openModal">Login</a></button>
+
+            <div id="openModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title">Login</h3>
+                      <a href="#close" title="Close" class="close">×</a>
+                    </div>
+                    <div class="modal-body">
+                      Login is successful!
+                    </div>
+                  </div>
+                </div>
+            </div>
+        
+            <script src="script.js"></script> 
+
+        </div>
+
+
+    </body>
+</html>
